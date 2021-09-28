@@ -4,4 +4,4 @@ Home Automation HAT is a Home monitoring and automation controller HAT for the R
 
 ## For Installation Guide, Please Visit 
 
-### <a href="https://learn.sb-components.co.uk/Home-Automation-HAT" > Pico WiFi Wiki Portal </a>
+### <a href="https://learn.sb-components.co.uk/Home-Automation-HAT" > Home Automation Wiki Portal </a>
