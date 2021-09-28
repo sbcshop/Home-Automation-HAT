@@ -3,7 +3,7 @@
 # Library for Home Automation HAT
 # Developed by: SB Components
 # Author: Ankur
-# Project: PiRelay
+# Project: Home Automation HAT
 # Python: 3.4.2
 
 import RPi.GPIO as GPIO
