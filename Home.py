@@ -19,7 +19,7 @@ class Relay:
     "RELAY5", "RELAY6", "RELAY7", "RELAY8")
     """
     relaypins = {
-        "RELAY1": 19, "RELAY2": 21, "RELAY3": 23, "RELAY4": 29,
+        "RELAY1": 35, "RELAY2": 33, "RELAY3": 23, "RELAY4": 29,
         "RELAY5": 31, "RELAY6": 33, "RELAY7": 35, "RELAY8": 37
                  }
 
@@ -27,12 +27,12 @@ class Relay:
         self.pin = self.relaypins[relay]
         self.relay = relay
         GPIO.setup(self.pin,GPIO.OUT)
-        GPIO.output(self.pin, GPIO.HIGH)
+        GPIO.output(self.pin, GPIO.LOW)
 
     def on(self):
         print(self.relay + " - ON")
-        GPIO.output(self.pin, GPIO.LOW)
+        GPIO.output(self.pin, GPIO.HIGH)
 
     def off(self):
         print(self.relay + " - OFF")
-        GPIO.output(self.pin, GPIO.HIGH)
+        GPIO.output(self.pin, GPIO.LOW)
