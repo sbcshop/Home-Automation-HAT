@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Library for PiRelay
+# Library for Home Automation HAT
 # Developed by: SB Components
 # Author: Ankur
 # Project: PiRelay
